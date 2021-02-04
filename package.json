@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "TypeScript Video Tutorials Exercise Files",
   "scripts": {
-    "git:commit": "cz"
+    "git:commit": "cz",
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -29,13 +30,18 @@
     "@types/node": "^14.14.25",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
+    "babel-loader": "^8.2.2",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.19.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
     "prettier": "^2.2.1",
-    "typescript": "^4.1.3"
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
   }
 }
