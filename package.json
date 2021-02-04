@@ -23,7 +23,9 @@
     }
   },
   "devDependencies": {
+    "@rapidevelop/prettier-config": "^1.0.1",
     "commitizen": "^4.2.3",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "prettier": "^2.2.1"
   }
 }
