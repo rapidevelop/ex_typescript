@@ -10,6 +10,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   devtool: 'eval',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 3000,
+    open: true,
+  },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
